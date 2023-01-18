@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 # author SBOXM
 # github: https://github.com/cnhkbbs/PyClub
-# 新手代码拙略，如有错误请大佬斧正
 import time
 from selenium import webdriver
 from selenium.common import NoSuchElementException
@@ -15,7 +14,7 @@ chrome = webdriver.Chrome(service=service)
 
 name = '123456@qq.com'  # 账号
 pwd = '123456'  # 密码
-datapath = r'C:\Users\ACER\Desktop\ '  # 保存路径(需要绝对路径)
+datapath = r'C:\Users\Administrator\Desktop\ '  # 保存路径(需要绝对路径)
 safe_time = 3  # 安全间隔时间
 
 
