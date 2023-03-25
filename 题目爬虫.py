@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 # author SBOXM
 # github: https://github.com/cnhkbbs/PyClub
+# 基于selenium的PTA实验题爬虫
+# 使用前请确保你已正确安装并配置驱动
 import time
 from selenium import webdriver
 from selenium.common import NoSuchElementException
